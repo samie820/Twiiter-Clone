@@ -1,0 +1,15 @@
+<div class="container-fluid">
+    <div class="form-control">
+        <div class="Jumbotron">
+            <form action="" method="POST">
+                {% csrf_token %}
+                    
+                {{form.as_p}}
+                    
+                <input type="submit" value="Create">    
+            </form>
+                   
+        </div>
+       
+    </div>
+</div>
